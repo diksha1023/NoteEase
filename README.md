@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple steps:
 
 
 ## 2. Navigate to the project directory:
-### cd NoteEase
+- cd NoteEase
 
 ## 3. Install dependencies:
 #### For the frontend
