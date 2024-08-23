@@ -54,7 +54,8 @@ To get a local copy up and running follow these simple steps:
 ## 5.Start the servers:
 #### Start the frontend server from the frontend directory
 - cd ../frontend
-- npm start
+- npm init
+- npm run dev
 
 #### Open a new terminal and start the backend server from the backend directory
 - cd backend
