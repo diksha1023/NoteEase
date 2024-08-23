@@ -31,30 +31,30 @@
 
 To get a local copy up and running follow these simple steps:
 
-# 1. Clone the repository:
+## 1. Clone the repository:
 
 
-# 2. Navigate to the project directory:
-## cd NoteEase
+## 2. Navigate to the project directory:
+### cd NoteEase
 
-# 3. Install dependencies:
-## For the frontend
+## 3. Install dependencies:
+### For the frontend
 cd frontend
 npm install
 
-## For the backend
+### For the backend
 cd ../backend
 pip install -r requirements.txt
 
-# 4. Set up your environment variables:
-## Create a .env file in the backend directory and add:
+## 4. Set up your environment variables:
+### Create a .env file in the backend directory and add:
 JWT_SECRET_KEY='your_secret_key_here'
 DATABASE_URL='your_database_url_here'
 
-# 5.Start the servers:
-## Start the frontend server from the frontend directory
+## 5.Start the servers:
+### Start the frontend server from the frontend directory
 cd ../frontend
 npm start
-## Open a new terminal and start the backend server from the backend directory
+### Open a new terminal and start the backend server from the backend directory
 cd backend
 python manage.py runserver
